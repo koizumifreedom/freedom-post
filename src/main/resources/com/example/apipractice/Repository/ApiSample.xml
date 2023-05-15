@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.apipractice.Repository">
+<mapper namespace="com.example.apipractice.Repository.ApiSampleRepository">
 
-    <resultMap id="Api_Sample_Result_Map" type="com.example.apipractice.model.ApiSampleModel">
+    <resultMap id="Api_Sample_Result_Map" type="com.example.apipractice.Model.ApiSampleModel">
     <id column="id" property="id" jdbcType="INTEGER"/>
     <result column="title" property="title" jdbcType="VARCHAR"/>
     <result column="content" property="content" jdbcType="VARCHAR"/>
